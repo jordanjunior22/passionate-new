@@ -45,7 +45,7 @@ const CommunitySupport: React.FC = () => {
 
             <Button
               variant="primary"
-              href="/programs/community"
+              href="/community"
               size="large"
               icon="bx-plus-circle"
             >
