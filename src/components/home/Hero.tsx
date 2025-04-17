@@ -58,10 +58,10 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="order-2 lg:order-1 z-10">
             <div className="min-h-[300px] flex flex-col justify-center">
-              <h1 className="font-heading text-neutral-darkest mb-4">
+              <h2 className="font-heading text-neutral-darkest mb-4">
                 Your Development/Intellectual Disability is Our Passionate
                 Priority
-              </h1>
+              </h2>
               <p className="text-tag-regular text-neutral-dark mb-6">
                 We take clients with most Developmental Disability (DD) or
                 Intellectual & Developmental Disability (IDD) diagnoses on a
