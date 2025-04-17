@@ -1,0 +1,240 @@
+@import "tailwindcss";
+
+/* Define custom theme variables */
+@theme {
+  /* Font Families */
+  --font-family-heading: "Quicksand", sans-serif;
+  --font-family-body: "Work Sans", sans-serif;
+
+  /* Colors */
+  /* Neutrals */
+  --color-neutral-white: #ffffff;
+  --color-neutral-lightest: #f2f2f2;
+  --color-neutral-lighter: #d9d9d9;
+  --color-neutral-light: #b3b3b3;
+  --color-neutral: #818481;
+  --color-neutral-dark: #4f524f;
+  --color-neutral-darker: #2d2d2d;
+  --color-neutral-darkest: #0d0d0d;
+
+  /* Fruit Salad (Green) */
+  --color-fruit-salad-lightest: #edffed;
+  --color-fruit-salad-lighter: #d8edcc;
+  --color-fruit-salad-light: #bcd784;
+  --color-fruit-salad: #4caf50;
+  --color-fruit-salad-dark: #3c8c40;
+  --color-fruit-salad-darker: #2e6b20;
+  --color-fruit-salad-darkest: #25431b;
+
+  /* Dodger Blue */
+  --color-dodger-blue-lightest: #e8f4fd;
+  --color-dodger-blue-lighter: #d2eafc;
+  --color-dodger-blue-light: #63b3fe;
+  --color-dodger-blue: #228ef2;
+  --color-dodger-blue-dark: #1a78c2;
+  --color-dodger-blue-darker: #0d3db1;
+  --color-dodger-blue-darkest: #092048;
+
+  /* Seance (Purple) */
+  --color-seance-lightest: #f9e8f7;
+  --color-seance-lighter: #ebd3ef;
+  --color-seance-light: #B96TC7;
+  --color-seance: #8c2390;
+  --color-seance-dark: #7c1f8c;
+  --color-seance-darker: #652f46;
+  --color-seance-darkest: #2e1034;
+
+  /* Font Sizes */
+  --font-size-h1: 52px;
+  --font-size-h2: 40px;
+  --font-size-h3: 36px;
+  --font-size-h4: 32px;
+  --font-size-h5: 24px;
+  --font-size-h6: 16px;
+  --font-size-tag-large: 20px;
+  --font-size-tag-medium: 18px;
+  --font-size-tag-regular: 16px;
+  --font-size-tag-small: 14px;
+  --font-size-tag-tiny: 12px;
+
+  /* Mobile Typography */
+  --font-size-mobile-h1: 32px;
+  --font-size-mobile-h2: 28px;
+  --font-size-mobile-h3: 24px;
+  --font-size-mobile-h4: 20px;
+  --font-size-mobile-h5: 18px;
+  --font-size-mobile-h6: 16px;
+
+  /* Tablet Typography */
+  --font-size-tablet-h1: 40px;
+  --font-size-tablet-h2: 36px;
+  --font-size-tablet-h3: 32px;
+  --font-size-tablet-h4: 24px;
+  --font-size-tablet-h5: 20px;
+  --font-size-tablet-h6: 16px;
+
+  /* Line Heights */
+  --line-height-h1: 120%;
+  --line-height-h2: 120%;
+  --line-height-h3: 120%;
+  --line-height-h4: 130%;
+  --line-height-h5: 140%;
+  --line-height-h6: 150%;
+  --line-height-tag-large: 150%;
+  --line-height-tag-medium: 150%;
+  --line-height-tag-regular: 150%;
+  --line-height-tag-small: 150%;
+  --line-height-tag-tiny: 150%;
+  --line-height-mobile-h1: 120%;
+  --line-height-mobile-h2: 120%;
+  --line-height-mobile-h3: 120%;
+  --line-height-mobile-h4: 130%;
+  --line-height-mobile-h5: 140%;
+  --line-height-mobile-h6: 150%;
+
+  /* Border Radius */
+  --radius-large: 16px;
+  --radius-medium: 12px;
+  --radius-small: 8px;
+
+  /* Box Shadow */
+  --shadow-xxsmall: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-xsmall: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-small: 0 1px 4px rgba(0, 0, 0, 0.15);
+  --shadow-medium: 0 2px 6px rgba(0, 0, 0, 0.2);
+  --shadow-large: 0 4px 8px rgba(0, 0, 0, 0.25);
+  --shadow-xlarge: 0 8px 16px rgba(0, 0, 0, 0.3);
+  --shadow-xxlarge: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Apply base styles */
+@layer base {
+  html {
+    font-family: var(--font-family-body);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-heading);
+  }
+
+  /* Custom utility classes for typography with responsive design */
+  h1 {
+    font-size: var(--font-size-mobile-h1);
+    line-height: var(--line-height-mobile-h1);
+  }
+  h2 {
+    font-size: var(--font-size-mobile-h2);
+    line-height: var(--line-height-mobile-h2);
+  }
+  h3 {
+    font-size: var(--font-size-mobile-h3);
+    line-height: var(--line-height-mobile-h3);
+  }
+  h4 {
+    font-size: var(--font-size-mobile-h4);
+    line-height: var(--line-height-mobile-h4);
+  }
+  h5 {
+    font-size: var(--font-size-mobile-h5);
+    line-height: var(--line-height-mobile-h5);
+  }
+  h6 {
+    font-size: var(--font-size-mobile-h6);
+    line-height: var(--line-height-mobile-h6);
+  }
+
+  /* Tablet breakpoint */
+  @media (min-width: 640px) {
+    h1 {
+      font-size: var(--font-size-tablet-h1);
+      line-height: var(--line-height-h1);
+    }
+    h2 {
+      font-size: var(--font-size-tablet-h2);
+      line-height: var(--line-height-h2);
+    }
+    h3 {
+      font-size: var(--font-size-tablet-h3);
+      line-height: var(--line-height-h3);
+    }
+    h4 {
+      font-size: var(--font-size-tablet-h4);
+      line-height: var(--line-height-h4);
+    }
+    h5 {
+      font-size: var(--font-size-tablet-h5);
+      line-height: var(--line-height-h5);
+    }
+    h6 {
+      font-size: var(--font-size-tablet-h6);
+      line-height: var(--line-height-h6);
+    }
+  }
+
+  /* Desktop breakpoint */
+  @media (min-width: 950px) {
+    h1 {
+      font-size: var(--font-size-h1);
+      line-height: var(--line-height-h1);
+    }
+    h2 {
+      font-size: var(--font-size-h2);
+      line-height: var(--line-height-h2);
+    }
+    h3 {
+      font-size: var(--font-size-h3);
+      line-height: var(--line-height-h3);
+    }
+    h4 {
+      font-size: var(--font-size-h4);
+      line-height: var(--line-height-h4);
+    }
+    h5 {
+      font-size: var(--font-size-h5);
+      line-height: var(--line-height-h5);
+    }
+    h6 {
+      font-size: var(--font-size-h6);
+      line-height: var(--line-height-h6);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Define custom utilities if needed */
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-family-heading);
+  }
+  .font-body {
+    font-family: var(--font-family-body);
+  }
+
+  /* Responsive padding utilities */
+  .responsive-px {
+    @apply px-4 sm:px-6 md:px-8 lg:px-12;
+  }
+  .responsive-py {
+    @apply py-4 sm:py-6 md:py-8 lg:py-12;
+  }
+
+  /* Responsive margin utilities */
+  .responsive-mx {
+    @apply mx-4 sm:mx-6 md:mx-8 lg:mx-12;
+  }
+  .responsive-my {
+    @apply my-4 sm:my-6 md:my-8 lg:my-12;
+  }
+
+  /* Responsive gap utilities */
+  .responsive-gap {
+    @apply gap-2 sm:gap-4 md:gap-6 lg:gap-8;
+  }
+}
