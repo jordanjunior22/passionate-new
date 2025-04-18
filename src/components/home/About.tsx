@@ -16,19 +16,13 @@ export function About() {
             <h2 className="font-heading text-neutral-white">
               Our Commitment to Mental Health Recovery
             </h2>
-            <div className="flex max-w-sm flex-row gap-4">
-              <Button
-                variant="primary"
-                size="large"
-                className="w-full"
-                href="/about"
-              >
+            <div className="flex flex-row gap-4">
+              <Button variant="primary" href="/about">
                 Learn More
               </Button>
               <Button
                 variant="outline"
-                size="large"
-                className="w-full border-neutral-white text-neutral-white hover:bg-neutral-white hover:text-neutral-darkest"
+                className="border-neutral-white text-neutral-white hover:bg-neutral-white hover:text-neutral-darkest"
                 href="/contact"
               >
                 Contact
@@ -36,7 +30,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="relative md:mt-2">
+          <div className="relative md:mt-8">
             <p className="text-tag-regular text-neutral-lighter leading-relaxed">
               Our mission is to provide an opportunity for individuals dealing
               with mental health struggles to find solace, recover, and reclaim

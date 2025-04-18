@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const HeroSection = () => {
   return (
-    <section className="py-24 md:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 md:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -37,10 +37,10 @@ export const HeroSection = () => {
             personalized plan to meet their individual needs and goals.
           </p>
           <div className="flex flex-col md:flex-row gap-4">
-            <Button variant="primary" size="large" href="/programs">
+            <Button variant="primary" href="/programs">
               Our Programs
             </Button>
-            <Button variant="secondary" size="large" href="/contact">
+            <Button variant="secondary" href="/contact">
               Contact Us
             </Button>
           </div>

@@ -43,12 +43,12 @@ export default function ProgramStepsSection() {
             <h2 className="font-heading mb-6">
               Understanding Our Community Support Program
             </h2>
-            <div className="mb-8 flex md:max-w-md flex-col md:flex-row gap-4">
-              <Button variant="outline" size="large" href="/about">
+            <div className="mb-8 flex flex-col md:flex-row gap-4">
+              <Button variant="outline" href="/about">
                 Learn More
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
-              <Button size="large" href="#contactform">
+              <Button href="#contactform">
                 Sign Up
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>

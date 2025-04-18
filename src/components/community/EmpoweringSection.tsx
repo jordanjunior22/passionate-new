@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function EmpoweringSection() {
   return (
     <section className="w-full py-16 md:py-24 bg-neutral-lightest">
-      <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between">
+      <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8">
         <motion.div
           initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ export default function EmpoweringSection() {
             personal growth.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div>
               <h3 className="text-lg font-heading font-semibold mb-3">
                 Personalized Care

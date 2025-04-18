@@ -194,7 +194,6 @@ export function ContactForm() {
             <Button
               type="submit"
               variant="primary"
-              size="large"
               disabled={isSubmitting}
               className="min-w-40"
             >

@@ -26,13 +26,12 @@ const MissionCTA = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
               variant="primary"
-              size="large"
               className="bg-fruit-salad hover:bg-fruit-salad-dark"
               href="/about"
             >
               Learn More
             </Button>
-            <Button variant="secondary" size="large" href="/contact">
+            <Button variant="secondary" href="/contact">
               Sign Up
             </Button>
           </div>

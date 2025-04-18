@@ -67,10 +67,10 @@ const FeaturesSection = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button variant="primary" size="medium" href="/getinvolved">
+              <Button variant="primary" href="/getinvolved">
                 Get Involved
               </Button>
-              <Button variant="secondary" size="medium" href="#contactform">
+              <Button variant="secondary" href="#contactform">
                 Sign Up <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
             </div>

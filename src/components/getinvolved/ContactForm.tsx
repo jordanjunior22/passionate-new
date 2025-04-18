@@ -146,7 +146,6 @@ const ContactForm = () => {
             <Button
               type="submit"
               variant="primary"
-              size="large"
               disabled={isSubmitting}
               full={false}
             >

@@ -58,30 +58,20 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="order-2 lg:order-1 z-10">
             <div className="min-h-[300px] flex flex-col justify-center">
-              <h2 className="font-heading text-neutral-darkest mb-4">
-                Your Development/Intellectual Disability is Our Passionate
+              <h1 className="font-heading text-neutral-darkest mb-4">
+                Your Development / Intellectual Disability is Our Passionate
                 Priority
-              </h2>
+              </h1>
               <p className="text-tag-regular text-neutral-dark mb-6">
                 We take clients with most Developmental Disability (DD) or
                 Intellectual & Developmental Disability (IDD) diagnoses on a
                 Medicaid DD Waiver or private pay.
               </p>
-              <div className="flex md:max-w-md flex-col md:flex-row gap-4">
-                <Button
-                  variant="primary"
-                  size="large"
-                  className="w-full"
-                  href="/about"
-                >
+              <div className="flex flex-col md:flex-row gap-4">
+                <Button variant="primary" href="/about">
                   Learn More
                 </Button>
-                <Button
-                  variant="outline"
-                  size="large"
-                  className="w-full"
-                  href="#contactform"
-                >
+                <Button variant="outline" href="#contactform">
                   Book Appointment
                 </Button>
               </div>

@@ -101,10 +101,10 @@ const ProgramDetailsSection = () => {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Button variant="primary" size="large" href="/getinvolved">
+          <Button variant="primary" href="/getinvolved">
             Get Involved
           </Button>
-          <Button variant="secondary" size="large" href="#contactform">
+          <Button variant="secondary" href="#contactform">
             Sign Up <i className="bx bx-right-arrow-alt ml-1"></i>
           </Button>
         </div>

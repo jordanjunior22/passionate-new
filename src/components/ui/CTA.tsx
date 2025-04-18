@@ -51,12 +51,11 @@ export function CTA() {
               viewport={{ once: true }}
               className="flex flex-wrap gap-4"
             >
-              <Button variant="primary" size="large" href="/getinvolved">
+              <Button variant="primary" href="/getinvolved">
                 Get Involved
               </Button>
               <Button
                 variant="outline"
-                size="large"
                 className="border-neutral-white text-neutral-white hover:bg-neutral-white hover:text-neutral-darkest"
                 icon="bx-heart"
                 onClick={GoPay}

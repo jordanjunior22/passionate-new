@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+    <section className="w-full max-w-7xl mx-auto py-24 md:py-32 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
         <motion.div
           className="w-full md:w-1/2"
@@ -24,10 +24,10 @@ const HeroSection = () => {
             lasting impact in our community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="primary" size="large" href="/careers">
+            <Button variant="primary" href="/careers">
               Apply
             </Button>
-            <Button variant="outline" size="large" icon="bx-right-arrow-alt" href="/careers">
+            <Button variant="outline" icon="bx-right-arrow-alt" href="/careers">
               Learn More
             </Button>
           </div>

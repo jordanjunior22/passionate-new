@@ -60,10 +60,10 @@ const CareersSection = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="primary" size="large" href="/careers">
+            <Button variant="primary" href="/careers">
               Apply
             </Button>
-            <Button variant="outline" size="large" icon="bx-right-arrow-alt" href="/careers">
+            <Button variant="outline" icon="bx-right-arrow-alt" href="/careers">
               Learn More
             </Button>
           </div>

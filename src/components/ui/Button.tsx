@@ -17,6 +17,8 @@ interface ButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   type?: "button" | "submit" | "reset";
   full?: boolean;
+  target?: string;
+  rel?: string;
 }
 
 export function Button({
@@ -30,6 +32,8 @@ export function Button({
   onClick,
   type = "button",
   full = false,
+  target,
+  rel,
 }: ButtonProps) {
   const baseStyles =
     "font-heading font-medium transition-colors duration-200 flex items-center justify-center gap-2";
@@ -62,7 +66,7 @@ export function Button({
 
   if (href && !disabled) {
     return (
-      <Link href={href} className={buttonStyles}>
+      <Link href={href} className={buttonStyles} target={target} rel={rel}>
         {icon && <i className={`bx ${icon}`}></i>}
         {children}
       </Link>

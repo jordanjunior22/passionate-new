@@ -241,12 +241,7 @@ export function Footer() {
                 required
                 className="flex-grow"
               />
-              <Button
-                type="submit"
-                variant="primary"
-                size="medium"
-                className="min-w-[100px]"
-              >
+              <Button type="submit" variant="primary" className="min-w-[100px]">
                 {subscribed ? "Thanks!" : "Sign Up"}
               </Button>
             </form>

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function HeroSection() {
   return (
     <section className="w-full py-24 md:py-32 bg-neutral-white">
-      <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between">
+      <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ export default function HeroSection() {
             you navigate daily challenges. Experience enhanced well-being
             through tailored resources and a supportive network.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
             <Button href="#contactform">Join</Button>
             <Button variant="outline" href="/about">
               Learn More

@@ -83,7 +83,6 @@ export function Header() {
             About
           </Link>
 
-          {/* Our Programs with Dropdown */}
           <div className="relative" ref={dropdownRef}>
             <button
               className="text-tag-small lg:text-tag-regular text-neutral-darkest hover:text-fruit-salad transition-colors duration-200 flex items-center"
@@ -128,7 +127,12 @@ export function Header() {
               </div>
             </div>
           </div>
-
+          <Link
+            href="/locations"
+            className="text-tag-small lg:text-tag-regular text-neutral-darkest hover:text-fruit-salad transition-colors duration-200"
+          >
+            Locations
+          </Link>
           <Link
             href="/getinvolved"
             className="text-tag-small lg:text-tag-regular text-neutral-darkest hover:text-fruit-salad transition-colors duration-200"
@@ -231,7 +235,13 @@ export function Header() {
                   </Link>
                 </div>
               </div>
-
+              <Link
+                href="/locations"
+                className="text-tag-regular text-neutral-darkest hover:text-fruit-salad transition-colors duration-200 p-3"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Locations
+              </Link>
               <Link
                 href="/getinvolved"
                 className="text-tag-regular text-neutral-darkest hover:text-fruit-salad transition-colors duration-200 p-3"

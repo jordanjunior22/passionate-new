@@ -131,21 +131,11 @@ export function Programs() {
               ))}
             </motion.div>
 
-            <div className="flex max-w-sm flex-row gap-4">
-              <Button
-                variant="primary"
-                size="large"
-                className="w-full"
-                href="/programs"
-              >
+            <div className="flex flex-row gap-4">
+              <Button variant="primary" href="/programs">
                 Learn More
               </Button>
-              <Button
-                variant="outline"
-                size="large"
-                className="w-full"
-                href="#contactform"
-              >
+              <Button variant="outline" href="#contactform">
                 Sign Up
               </Button>
             </div>
