@@ -14,7 +14,7 @@ export function About() {
               Mission
             </span>
             <h2 className="font-heading text-neutral-white">
-              Our Commitment to Developmental/Intellectual Disability
+              Our Commitment to Developmental&#47;Intellectual Disability
             </h2>
             <div className="flex flex-row gap-4">
               <Button variant="primary" href="/about">
@@ -33,7 +33,7 @@ export function About() {
           <div className="relative md:mt-8">
             <p className="text-tag-regular text-neutral-lighter leading-relaxed">
               Our mission is to provide an opportunity for individuals dealing
-              with developmental/intellectual disability struggles to find solace, support, and reclaim
+              with developmental&#47;intellectual disability struggles to find solace, support, and reclaim
               their sense of independence. Let's be{" "}
               <strong>
                 &ldquo;A Haven for your Intellectual & Developmental Disability
