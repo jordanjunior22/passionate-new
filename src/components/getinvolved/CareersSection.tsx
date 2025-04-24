@@ -18,10 +18,10 @@ const CareersSection = () => {
           <span className="text-dodger-blue font-heading font-medium">
             Join
           </span>
-          <h2 className="mt-2 mb-4">Explore Careers in Mental Health Care</h2>
+          <h2 className="mt-2 mb-4">Explore Careers in Developmental/Intellectual Disability Care</h2>
           <p className="text-neutral-dark mb-8">
             At Passionate Center & Homes, we are dedicated to fostering a
-            supportive environment for mental health professionals. Join our
+            supportive environment for disability health professionals. Join our
             team and make a meaningful impact in the lives of those we serve.
           </p>
 

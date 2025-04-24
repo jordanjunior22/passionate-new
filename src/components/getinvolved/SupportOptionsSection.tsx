@@ -56,13 +56,13 @@ const SupportOptionsSection = () => {
         viewport={{ once: true }}
       >
         <h2 className="mb-4">
-          Discover Meaningful Ways to Support Mental Health in Our Community
+          Discover Meaningful Ways to Support Disability Care in Our Community
         </h2>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <SupportOption
-          title="Join Us in Making a Difference for Mental Health"
+          title="Join Us in Making a Difference for Disability Health"
           description="Explore opportunities to volunteer and help those on their mental health journey."
           icon="bx-cube"
           linkText="Volunteer"
@@ -71,7 +71,7 @@ const SupportOptionsSection = () => {
         />
 
         <SupportOption
-          title="Build a Rewarding Career in Mental Health Support Services"
+          title="Build a Rewarding Career in Disability Care Support Services"
           description="Learn about career opportunities that allow you to make a real impact."
           icon="bx-cube"
           linkText="Careers"

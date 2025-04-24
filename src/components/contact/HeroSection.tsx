@@ -32,7 +32,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-neutral-dark text-tag-medium md:text-tag-large">
-              Your journey towards mental wellness starts here. Whether you're
+              Your journey towards developmental/intellectual disability wellness starts here. Whether you're
               looking to schedule a consultation, volunteer, or join an event,
               we're here to support you.
             </p>

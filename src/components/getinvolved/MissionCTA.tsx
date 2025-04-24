@@ -20,7 +20,7 @@ const MissionCTA = () => {
           </span>
           <h2 className="mt-2 mb-4">Join Our Mission</h2>
           <p className="text-neutral-dark mb-8">
-            Discover how you can make a difference in mental health support and
+            Discover how you can make a difference in developmental/intellectual disability support and
             community well-being.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

@@ -260,7 +260,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="pt-6 border-t border-neutral-lighter flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-neutral-dark mb-4 md:mb-0">
-            © 2025 Passionate Center & Homes. All rights reserved.
+            © 2025 Passionate Center & Homes H.C.S. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link

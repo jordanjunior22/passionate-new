@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h1 className="mt-2 mb-4">Join Us in Making a Difference</h1>
           <p className="text-neutral-dark mb-8">
             Volunteering with us offers a unique chance to support individuals
-            on their mental health journey. Your time and skills can create a
+            on their developmental/intellectual disability journey. Your time and skills can create a
             lasting impact in our community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
