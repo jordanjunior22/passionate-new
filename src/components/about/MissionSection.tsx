@@ -16,13 +16,13 @@ export const MissionSection = () => {
             className="order-2 lg:order-1"
           >
             <h2 className="font-heading text-neutral-darkest mb-6">
-              Empowering Mental Health Recovery Through Compassionate Support
+              Empowering Developmental/Intellectual Disability Through Compassionate Support
               and Community Engagement
             </h2>
             <p className="text-neutral-dark mb-6">
               At Passionate Center & Homes Healthcare Services, our goal is
-              to create a safe haven for individuals seeking mental health
-              recovery. With a rich history rooted in compassion and support, we
+              to create a safe haven for individuals with developmental/intellectual disability. 
+              With a rich history rooted in compassion and support, we
               strive to empower our clients to reclaim their independence and
               thrive in their communities.
             </p>

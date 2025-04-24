@@ -19,10 +19,10 @@ export const AwardsSection = () => {
               Excellence
             </span>
             <h2 className="font-heading text-neutral-darkest mb-6">
-              Recognized for Outstanding Mental Health Support
+              Recognized for Outstanding Developmental/Intellectual Disability Support
             </h2>
             <p className="text-neutral-dark mb-8">
-              Our commitment to mental health recovery has earned us accolades
+              Our commitment to developmental/intellectual disability support has earned us accolades
               in the community. We are proud to be recognized for our innovative
               programs and compassionate care.
             </p>
@@ -33,7 +33,7 @@ export const AwardsSection = () => {
                   Award Winning
                 </h3>
                 <p className="text-neutral-dark">
-                  Honored for our dedication to improving mental health services
+                  Honored for our dedication to improving developmental/intellectual disability services
                   and community engagement.
                 </p>
               </div>
@@ -43,7 +43,7 @@ export const AwardsSection = () => {
                 </h3>
                 <p className="text-neutral-dark">
                   Transforming lives through support, education, and advocacy in
-                  mental health.
+                  developmental/intellectual disability.
                 </p>
               </div>
             </div>

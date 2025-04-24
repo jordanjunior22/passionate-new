@@ -38,9 +38,9 @@ const ResidentialSupport: React.FC = () => {
             </h2>
             <p className="text-neutral-dark mb-6">
               Our Residential Support Program offers a safe and nurturing
-              environment for individuals facing mental health challenges. With
+              environment for individuals facing developmental/intellectual disability challenges. With
               personalized care plans and 24/7 support, we focus on fostering
-              independence and promoting recovery.
+              independence and promoting support.
             </p>
 
             <div className="bg-fruit-salad-lightest rounded-medium p-6 mb-8 border-l-4 border-fruit-salad">
@@ -51,7 +51,7 @@ const ResidentialSupport: React.FC = () => {
               <p className="text-neutral-dark">
                 Our group homes provide a supportive community setting where
                 residents can develop independence while receiving personalized
-                mental health support.
+                developmental/intellectual disability support.
               </p>
             </div>
 

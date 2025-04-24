@@ -18,7 +18,7 @@ const ProgramsCTA: React.FC = () => {
           <div className="flex flex-col items-center gap-8">
             <div>
               <h2 className="text-neutral-darker mb-4">
-                Ready to Begin Your Mental Health Journey?
+                Ready to Begin Your Developmental/Intellectual Disability Support Journey?
               </h2>
               <p className="text-neutral-dark max-w-xl">
                 Our compassionate team is here to help you or your loved one

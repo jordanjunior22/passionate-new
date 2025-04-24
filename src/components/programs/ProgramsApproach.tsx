@@ -45,7 +45,7 @@ const ProgramsApproach: React.FC = () => {
       icon: "bx-user-circle",
       title: "Personalized Care Plans",
       description:
-        "We develop individualized treatment plans that address unique mental health needs and personal goals.",
+        "We develop individualized treatment plans that address unique developmental/intellectual disability needs and personal goals.",
     },
     {
       icon: "bx-group",
@@ -63,7 +63,7 @@ const ProgramsApproach: React.FC = () => {
       icon: "bx-heart",
       title: "Holistic Wellness",
       description:
-        "Our approach considers physical, emotional, social, and spiritual aspects of mental health recovery.",
+        "Our approach considers physical, emotional, social, and spiritual aspects of developmental/intellectual disability support.",
     },
   ];
 
@@ -81,11 +81,11 @@ const ProgramsApproach: React.FC = () => {
             <span className="font-medium">Our Approach</span>
           </div>
           <h2 className="text-neutral-darker mb-4">
-            Tailored Approaches for Diverse Mental Health Challenges
+            Tailored Approaches for Diverse Developmental/Intellectual Disability Challenges
           </h2>
           <p className="text-neutral-dark max-w-3xl mx-auto">
             We adapt our programs to meet the unique needs of each individual,
-            providing comprehensive support for a variety of mental health
+            providing comprehensive support for a variety of developmental/intellectual disability
             conditions.
           </p>
         </motion.div>

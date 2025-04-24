@@ -36,10 +36,10 @@ export const TransformingSection = () => {
               Transforming Lives Through Comprehensive Support
             </h2>
             <p className="text-neutral-dark mb-8">
-              Our mental health programs are designed to foster recovery and
+              Our developmental/intellectual disability programs are designed to foster support and
               resilience. By providing tailored support, we empower individuals
               to reclaim their independence and enhance their quality of life.
-              Join us in creating a community where mental health is prioritized
+              Join us in creating a community where developmental/intellectual disability is prioritized
               and celebrated.
             </p>
             <div className="flex flex-wrap gap-4">

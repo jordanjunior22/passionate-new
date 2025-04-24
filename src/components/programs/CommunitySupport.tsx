@@ -22,7 +22,7 @@ const CommunitySupport: React.FC = () => {
             </h2>
             <p className="text-neutral-dark mb-6">
               Our Community Support Program offers tailored assistance to
-              individuals facing mental health challenges. We focus on fostering
+              individuals facing developmental/intellectual disability challenges. We focus on fostering
               personal growth, resilience, and community integration.
             </p>
 
@@ -31,7 +31,7 @@ const CommunitySupport: React.FC = () => {
                 <h4 className="text-neutral-darker mb-3">Key Benefits</h4>
                 <p className="text-neutral-dark">
                   Access to resources, individualized support, and community
-                  engagement for lasting recovery.
+                  engagement for lasting support.
                 </p>
               </div>
               <div>

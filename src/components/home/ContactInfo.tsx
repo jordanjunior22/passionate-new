@@ -4,25 +4,34 @@ import React from "react";
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 
+type contactItems = {
+  icon: string;
+  title: string;
+  value: string[];
+  link: string;
+  color: string;
+};
+
+
 const contactItems = [
   {
     icon: "bx-envelope",
     title: "Email",
-    value: "pchhservicesllc@gmail.com",
+    value: ["pchhservicesllc@gmail.com"],
     link: "mailto:pchhservicesllc@gmail.com",
     color: "neutral-darker",
   },
   {
     icon: "bx-phone",
     title: "Phone",
-    value: "+1 (571) 265-5198",
-    link: "tel:+15712655198",
+    value: ["+1 (703) 200-0983","+1 (571) 265-5198"],
+    link: "tel:+17032000983",
     color: "neutral-darker",
   },
   {
     icon: "bx-map",
     title: "Office",
-    value: "5721 Eliot Ct, Unit 173, Alexandria, Virginia 22311",
+    value: ["5721 Eliot Ct, Unit 173, Alexandria, Virginia 22311"],
     link: "https://maps.google.com/?q=5721+Eliot+Ct,+Alexandria,+VA+22311",
     color: "neutral-darker",
   },
@@ -130,7 +139,9 @@ export function ContactInfo() {
                   {item.title}
                 </h3>
                 <div className="text-tag-regular text-center text-neutral-dark hover:text-neutral-darkest transition-colors">
-                  {item.value}
+                {item.value.map((phone: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined, idx: React.Key | null | undefined) => (
+                  <div key={idx}>{phone}</div>
+                ))}
                 </div>
               </motion.a>
             ))}
@@ -169,7 +180,7 @@ export function ContactInfo() {
                 <div className="flex justify-between">
                   <span className="text-neutral-dark">Monday - Friday</span>
                   <span className="text-neutral-darkest font-medium">
-                    9:00 AM - 6:00 PM
+                    10:00 AM - 6:00 PM
                   </span>
                 </div>
                 <div className="flex justify-between">
@@ -181,7 +192,7 @@ export function ContactInfo() {
                 <div className="flex justify-between">
                   <span className="text-neutral-dark">Sunday</span>
                   <span className="text-neutral-darkest font-medium">
-                    Closed
+                    10-00 AM - 2:00 PM
                   </span>
                 </div>
               </div>

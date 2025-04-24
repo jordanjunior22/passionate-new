@@ -42,7 +42,7 @@ export function CTA() {
               className="text-neutral-lighter mb-8"
             >
               Help power our work in volunteer coordination, career development,
-              and crucial mental health care with your gift today.
+              and crucial developmental/intellectual disability care with your gift today.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

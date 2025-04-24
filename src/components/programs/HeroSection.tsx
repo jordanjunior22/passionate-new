@@ -15,12 +15,12 @@ const HeroSection: React.FC = () => {
           className="text-center mb-12"
         >
           <h1 className="mb-6 text-neutral-darker">
-            Explore Our Comprehensive Mental Health Support Programs for Lasting
-            Recovery
+            Explore Our Comprehensive Developmental/Intellectual Disability Support Programs for Lasting
+            Support
           </h1>
           <p className="text-neutral-dark max-w-3xl mx-auto text-tag-large">
-            Explore our tailored programs designed to foster recovery and
-            personal growth for mental health.
+            Explore our tailored programs designed to foster support and
+            personal growth for developmental/intellectual disability.
           </p>
         </motion.div>
 
@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h5 className="text-neutral-darker mb-3">
-                Residential Support Program: A Safe Space for Healing and Growth
+                Residential Group Home Program: A Safe Space for Support and Growth
               </h5>
               <p className="text-neutral-dark mb-6">
                 Our Residential Support Program offers a structured environment

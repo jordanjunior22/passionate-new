@@ -20,9 +20,7 @@ export const HeroSection = () => {
             Our Mission Matters
           </h1>
           <p className="text-neutral-dark mb-2">
-            Our mission is to provide an opportunity for individuals dealing
-            with mental health struggles to find solace, recover, and reclaim
-            their sense of independence. Let's be{" "}
+            Our mission is to provide opportunities for individuals with developmental/intellectual disability to find solace, support, and reclaim their sense of independence. Let's be{" "}
             <strong>
               &ldquo;A Haven for your Intellectual & Developmental Disability
               Support&rdquo;
@@ -30,11 +28,7 @@ export const HeroSection = () => {
             .
           </p>
           <p className="text-neutral-dark mb-8">
-            Our private, city setting provides an optimal environment for
-            healthy, independent living in our vibrant residential group homes.
-            Along with support from skilled and caring behavioral health
-            recovery support specialists, each resident is offered a
-            personalized plan to meet their individual needs and goals.
+            Our private, city setting provides an optimal environment for healthy, independent living in our vibrant residential group homes. Along with support from skilled and caring behavioral health specialist and direct support professionals, each resident is offered a personalized plan to meet their individual needs and goals.
           </p>
           <div className="flex flex-col md:flex-row gap-4">
             <Button variant="primary" href="/programs">

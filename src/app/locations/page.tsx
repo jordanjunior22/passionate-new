@@ -13,27 +13,27 @@ export default function LocationsPage() {
     {
       id: 1,
       name: "Alexandria",
-      address: "123 Main St, Alexandria VA 22314 USA",
+      address: "5721 Eliot Ct, Unit 173, Alexandria, Virginia 22311",
       images: ["/images/img5.jpg", "/images/img6.jpg", "/images/img7.jpg"],
       description:
-        "Our flagship location in the heart of historic Alexandria. This peaceful residence offers a serene environment for recovery and growth.",
+        "Our flagship location in the heart of historic Alexandria. This peaceful residence offers a serene environment for community intergration, support and growth.",
     },
-    {
-      id: 2,
-      name: "Washington",
-      address: "456 Elm St, Washington DC 20001 USA",
-      images: ["/images/img6.jpg", "/images/img7.jpg", "/images/img5.jpg"],
-      description:
-        "Located in the nation's capital, our Washington location provides convenient access to numerous resources and amenities.",
-    },
-    {
-      id: 3,
-      name: "Maryland",
-      address: "789 Oak St, Bethesda MD 20814 USA",
-      images: ["/images/img7.jpg", "/images/img5.jpg", "/images/img6.jpg"],
-      description:
-        "Our Bethesda location offers a tranquil suburban setting with all the benefits of our therapeutic community approach.",
-    },
+    // {
+    //   id: 2,
+    //   name: "Washington",
+    //   address: "456 Elm St, Washington DC 20001 USA",
+    //   images: ["/images/img6.jpg", "/images/img7.jpg", "/images/img5.jpg"],
+    //   description:
+    //     "Located in the nation's capital, our Washington location provides convenient access to numerous resources and amenities.",
+    // },
+    // {
+    //   id: 3,
+    //   name: "Maryland",
+    //   address: "789 Oak St, Bethesda MD 20814 USA",
+    //   images: ["/images/img7.jpg", "/images/img5.jpg", "/images/img6.jpg"],
+    //   description:
+    //     "Our Bethesda location offers a tranquil suburban setting with all the benefits of our therapeutic community approach.",
+    // },
   ];
 
   const selectedLocationData =
@@ -51,8 +51,8 @@ export default function LocationsPage() {
         </h1>
         <p className="text-center text-neutral-dark mb-12 max-w-2xl mx-auto">
           Visit us at our convenient locations in the DMV area. Each of our
-          residences offers a supportive community environment tailored to
-          foster mental health recovery and independence.
+          residences offers a supportive environment tailored to
+          foster developmental/intellectual disability support and independence.
         </p>
       </motion.div>
 
