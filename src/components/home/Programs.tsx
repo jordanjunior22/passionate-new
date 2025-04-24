@@ -91,11 +91,11 @@ export function Programs() {
                 Programs
               </span>
               <h2 className="font-heading text-neutral-900 mt-2">
-                Empowering Mental Health Through Tailored Programs
+                Empowering Developmental/Intellectual Disability Through Tailored Programs
               </h2>
               <p className="text-neutral-600 mt-4">
                 Our evidence-based programs are designed to empower individuals
-                on their mental health journey. We provide compassionate care
+                on their developmental/intellectual disability journey. We provide compassionate care
                 that addresses each person's unique needs, fostering resilience
                 and sustainable well-being.
               </p>
