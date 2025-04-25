@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Quicksand, Work_Sans } from "next/font/google";
 import { ThemeProvider } from "@/providers/ThemeProvider";
+import Head from "next/head";
 import "./globals.css";
 import "boxicons/css/boxicons.min.css";
 
@@ -72,6 +73,54 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${quicksand.variable} ${workSans.variable}`}>
+      <Head>
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://passionatecenterandhomes.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Our Programs",
+                  "item": "https://passionatecenterandhomes.com/programs"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Residential Support Program",
+                  "item": "https://passionatecenterandhomes.com/residential"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Community Support Program",
+                  "item": "https://passionatecenterandhomes.com/community"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Get Involved",
+                  "item": "https://passionatecenterandhomes.com/getinvolved"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "name": "Contact",
+                  "item": "https://passionatecenterandhomes.com/contact"
+                }
+              ]
+            }
+          `}
+        </script>
+      </Head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>

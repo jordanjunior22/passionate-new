@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import Head from "next/head";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

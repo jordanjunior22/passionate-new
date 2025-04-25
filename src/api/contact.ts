@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
             <p><em>${data.merge_fields.MESSAGE}</em></p>
           </div>
           <p>Best regards,</p>
-          <p><strong>Your Company Name</strong></p>
+          <p><strong>Passionate Center & Homes</strong></p>
         </div>
       `,
     });

@@ -115,7 +115,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/ooops"
+                  href="/blog"
                   className="text-neutral-dark hover:text-fruit-salad transition-colors duration-200"
                 >
                   Blog Posts
@@ -205,7 +205,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/ooops"
+                  href="/blog"
                   className="text-neutral-dark hover:text-fruit-salad transition-colors duration-200"
                 >
                   Blog
