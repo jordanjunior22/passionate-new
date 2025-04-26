@@ -18,6 +18,7 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://passionatecenterandhomes.com'),
   title: "Passionate Center & Homes",
   description: "A website for Passionate Center & Homes",
   icons: {
@@ -39,14 +40,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Passionate Center & Homes",
-    description: "A website for Passionate Center & Homes",
-    images: ["/og-image.png"],
-    site: "@YOUR_TWITTER_HANDLE",
-    creator: "@YOUR_TWITTER_HANDLE",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Passionate Center & Homes",
+  //   description: "A website for Passionate Center & Homes",
+  //   images: ["/og-image.png"],
+  //   site: "@YOUR_TWITTER_HANDLE",
+  //   creator: "@YOUR_TWITTER_HANDLE",
+  // },
   robots: {
     index: true,
     follow: true,

@@ -4,11 +4,11 @@ import React from "react";
 import { Header } from "@/components/ui/Header";
 import { Footer } from "@/components/ui/Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Careers } from "@/components/career/Careers";
-import CareerHero from "@/components/career/HeroSection";
-import JobListings from "@/components/career/JobListing";
+import ApplySection from "@/components/career/ApplySection";
+import ApplyHero from "@/components/career/ApplyHero";
 
-export default function CareerPage() {
+
+export default function ApplyPage() {
   // Progress bar at the top of the page
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -24,8 +24,8 @@ export default function CareerPage() {
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-fruit-salad to-dodger-blue z-50"
         style={{ scaleX, transformOrigin: "0%" }}
       />
-      <CareerHero/>
-      <JobListings/>
+        <ApplyHero />
+      <ApplySection/>
       <Footer />
     </main>
   );

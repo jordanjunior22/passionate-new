@@ -14,7 +14,7 @@ export default function BlogHeroSection() {
           className="w-full md:w-1/2 mb-8 md:mb-0"
         >
           <span className="text-fruit-salad font-medium uppercase tracking-wide mb-2 block">Blog</span>
-          <h1 className="font-heading text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="font-heading text-neutral-darkest mb-4">
             Discover Ideas That Inspire
           </h1>
           <p className="text-neutral-dark max-w-xl text-lg">
