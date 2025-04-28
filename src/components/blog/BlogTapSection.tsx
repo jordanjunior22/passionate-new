@@ -42,7 +42,7 @@ export default function BlogTabSection() {
     <section className="w-full py-20 bg-neutral-white">
       <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row gap-10">
         {/* Tabs */}
-        <div className="w-full md:w-1/2 space-y-4">
+        <div className="w-full md:w-1/2 space-y-4 h-[400px] overflow-y-auto">
           {blogPosts.map((post, index) => (
             <div
               key={post.id}

@@ -8,6 +8,7 @@ interface FormData {
   message: string;
   coverLetter: File | null;
   resume: File | null;
+  number: string;
 }
 
 const ApplySection = () => {
@@ -17,6 +18,7 @@ const ApplySection = () => {
     message: "",
     coverLetter: null,
     resume: null,
+    number: "",
   });
 
   const [loading, setLoading] = useState<boolean>(false);
@@ -60,6 +62,7 @@ const ApplySection = () => {
           message: "",
           coverLetter: null,
           resume: null,
+          number: "",
         });
       } else {
         setStatus("❌ Error submitting application. Please try again.");
@@ -108,11 +111,26 @@ const ApplySection = () => {
               className="mt-1 w-full border border-neutral-light rounded-md px-4 py-2 shadow-sm focus:ring-fruit-salad focus:border-fruit-salad"
             />
           </div>
-
+          {/* Full Name */}
+          <div>
+            <label htmlFor="name" className="block text-sm font-medium text-neutral-darkest">
+              Phone Numer
+            </label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              required
+              placeholder="+1 (123) 456-7890"
+              value={formData.number}
+              onChange={handleChange}
+              className="mt-1 w-full border border-neutral-light rounded-md px-4 py-2 shadow-sm focus:ring-fruit-salad focus:border-fruit-salad"
+            />
+          </div>
           {/* Message / Cover Letter Text */}
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-neutral-darkest">
-              Cover Letter (in text)
+              Tell us why you are a great fit for this position
             </label>
             <textarea
               id="message"
@@ -120,7 +138,7 @@ const ApplySection = () => {
               rows={5}
               value={formData.message}
               onChange={handleChange}
-              placeholder="Tell us why you're a great fit..."
+              placeholder="Tell us about yourself and a situation were you provided compassionate support to an individual with DD/IDD (in text)"
               className="mt-1 w-full border border-neutral-light rounded-md px-4 py-2 shadow-sm focus:ring-fruit-salad focus:border-fruit-salad"
             ></textarea>
           </div>
