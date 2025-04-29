@@ -50,8 +50,7 @@ const FeaturesSection = () => {
                   Stability First
                 </h4>
                 <p className="text-neutral-dark">
-                  Create a solid foundation for your mental health recovery and
-                  well-being.
+                Create a solid foundation for growth, independence, and well-being for individuals with developmental and intellectual disabilities.
                 </p>
               </div>
 
@@ -67,11 +66,11 @@ const FeaturesSection = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button variant="primary" href="/getinvolved">
-                Get Involved
+              <Button variant="primary" href="/contact">
+                Get Started
               </Button>
-              <Button variant="secondary" href="#contactform">
-                Sign Up <i className="bx bx-right-arrow-alt ml-1"></i>
+              <Button variant="secondary" href="/programs">
+                Other Programs <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
             </div>
           </motion.div>

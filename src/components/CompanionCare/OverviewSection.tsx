@@ -15,17 +15,17 @@ const OverviewSection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-neutral-darker font-heading mb-6">
-            Residential Support Services
+            Companion Care Services
           </h2>
           <p className="text-neutral-dark text-lg">
-          Empowering individuals through compassionate care and structured support for those living with developmental and intellectual disabilities.
+            Providing trusted companionship, emotional support, and daily assistance to help clients maintain independence and enhance their quality of life.
           </p>
         </motion.div>
 
-        <div className="h-48 md:h-80 w-full bg-neutral-lightest rounded-large mb-16">
+        <div className="h-48 md:h-80 w-full bg-neutral-lightest rounded-large mb-16 overflow-hidden">
           <img
-            src="/images/img5.jpg"
-            alt="Residential Support Program"
+            src="/images/companion2.jpg"
+            alt="Companion Care Program"
             className="object-cover h-full w-full rounded-medium"
           />
         </div>

@@ -17,7 +17,7 @@ export default function JoinSection() {
             className="w-full md:w-1/2"
           >
             <h2 className="font-heading mb-6">
-              Join Our Community Support Program
+              Join Our Companion Care Program
             </h2>
           </motion.div>
 
@@ -29,10 +29,7 @@ export default function JoinSection() {
             className="w-full md:w-1/2"
           >
             <p className="text-neutral-dark mb-8">
-              Take the first step towards recovery by enrolling in our Community
-              Support Program. Whether for yourself or a loved one, our
-              dedicated team is here to provide the guidance and support needed
-              for a brighter future.
+              Take the first step towards a more connected and supported life. Our Companion Care Program provides emotional support, meaningful companionship, and everyday assistance to help individuals live independently with dignity and joy.
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">

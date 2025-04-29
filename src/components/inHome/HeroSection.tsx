@@ -16,13 +16,12 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-neutral-darker font-heading mb-6">
-              Empowering Mental Health Recovery Through Support
+              Personalized Care and Support in the Comfort of Your Home
             </h1>
             <p className="text-neutral-dark mb-8 text-lg">
-              Our Residential Support Program offers a safe haven for adults
-              facing developmental/intellectual disability challenges. We specialize in conditions such
-              as schizophrenia, bipolar disorder, and anxiety, providing
-              tailored support for each individual's journey.
+              Our In-Home Support Program delivers compassionate assistance to individuals 
+              who need help with daily living activities, personal care, and building independence — 
+              all while remaining in the familiarity of their own homes.
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">
@@ -44,8 +43,8 @@ const HeroSection = () => {
             <div className="bg-neutral-lightest rounded-large p-4 h-96">
               <div className="w-full h-full flex items-center justify-center">
                 <img
-                  src="/images/img6.jpg"
-                  alt="Residential Support Program"
+                  src="/images/inhome.jpg"
+                  alt="In-Home Support Program"
                   className="object-cover h-full w-full rounded-medium"
                 />
               </div>
@@ -56,19 +55,19 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
-              Comprehensive Care
+              Assistance with Daily Living
             </h3>
             <p className="text-neutral-dark">
-              We focus on stability and personal growth for our residents.
+              From meal preparation to medication reminders, we offer tailored support for everyday needs.
             </p>
           </div>
 
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
-              Individualized Support
+              Promoting Independence
             </h3>
             <p className="text-neutral-dark">
-              Each program is customized to meet unique mental health needs.
+              Our caregivers encourage skills development, self-care, and community involvement at home.
             </p>
           </div>
         </div>

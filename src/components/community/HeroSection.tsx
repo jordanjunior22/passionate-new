@@ -18,7 +18,7 @@ export default function HeroSection() {
             <span className="text-fruit-salad font-medium">Empowerment</span>
           </div>
           <h1 className="font-heading mb-6">
-            Transform Your Life with Our Support
+            Transform Your Life with Our Community Support Program
           </h1>
           <p className="text-neutral-dark mb-8 max-w-xl">
             Our Community Support Program offers personalized guidance to help
@@ -26,9 +26,9 @@ export default function HeroSection() {
             through tailored resources and a supportive network.
           </p>
           <div className="flex flex-col md:flex-row gap-4">
-            <Button href="#contactform">Join</Button>
-            <Button variant="outline" href="/about">
-              Learn More
+            <Button href="/contact">Get Started</Button>
+            <Button variant="outline" href="/programs">
+              Other Programs
               <i className="bx bx-right-arrow-alt ml-1"></i>
             </Button>
           </div>

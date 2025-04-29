@@ -44,12 +44,12 @@ export default function ProgramStepsSection() {
               Understanding Our Community Support Program
             </h2>
             <div className="mb-8 flex flex-col md:flex-row gap-4">
-              <Button variant="outline" href="/about">
-                Learn More
+              <Button variant="outline" href="/blog">
+                Our Blog
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
-              <Button href="#contactform">
-                Sign Up
+              <Button href="contact">
+                Get Started
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
             </div>
@@ -63,11 +63,9 @@ export default function ProgramStepsSection() {
             className="w-full md:w-7/12"
           >
             <p className="text-neutral-dark mb-8">
-              Our Community Support Program is designed to empower individuals
-              facing mental health challenges. Through personalized support and
-              resources, we help participants navigate their recovery journey.
-              From initial intake to ongoing assistance, we are committed to
-              fostering independence and resilience.
+            Our Community Support Program is designed to empower individuals facing developmental and intellectual disabilities. Through personalized support and resources, we help participants navigate their journey towards independence. From initial intake to ongoing assistance, we are committed to fostering resilience and personal growth.
+
+
             </p>
 
             <div className="grid gap-8">

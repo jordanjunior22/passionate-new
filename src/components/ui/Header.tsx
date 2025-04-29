@@ -120,6 +120,18 @@ export function Header() {
                   Community Support Program
                 </Link>
                 <Link
+                  href="/in-home-support-program"
+                  className="block px-4 py-3 text-neutral-darkest hover:text-fruit-salad hover:bg-neutral-lightest transition-colors duration-200 border-l-2 border-transparent hover:border-fruit-salad"
+                >
+                  In-Home Support Program
+                </Link>
+                <Link
+                  href="/companion-care-program"
+                  className="block px-4 py-3 text-neutral-darkest hover:text-fruit-salad hover:bg-neutral-lightest transition-colors duration-200 border-l-2 border-transparent hover:border-fruit-salad"
+                >
+                  Companion Care Program
+                </Link>
+                <Link
                   href="/programs"
                   className="block px-4 py-2 mt-1 text-sm text-neutral-dark hover:text-fruit-salad bg-neutral-lightest font-medium transition-colors duration-200 text-center"
                 >

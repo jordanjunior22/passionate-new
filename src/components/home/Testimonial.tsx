@@ -18,7 +18,7 @@ export function Testimonial() {
       id: 1,
       quote:
         "The support I received from them, transformed my life. I finally feel hopeful and empowered to take control of my mental health.",
-      author: "John Doe",
+      author: "Michael Carter",
       role: "Client, Advocate",
       rating: 5,
     },
@@ -26,7 +26,7 @@ export function Testimonial() {
       id: 2,
       quote:
         "Passionate Center provided me with the tools and community I needed to rebuild my confidence and discover new purpose.",
-      author: "Jane Smith",
+      author: "Emily Turner",
       role: "Program Participant",
       rating: 5,
     },
@@ -34,8 +34,64 @@ export function Testimonial() {
       id: 3,
       quote:
         "The staff at Passionate Center are exceptional. Their genuine care and professional approach made all the difference in my recovery.",
-      author: "Alex Johnson",
+      author: "David Mitchell",
       role: "Outpatient Client",
+      rating: 5,
+    },
+    {
+      id: 4,
+      quote:
+        "I am so grateful for the resources provided here. It’s a place where I feel safe to grow and pursue my goals.",
+      author: "Sarah Williams",
+      role: "Former Client",
+      rating: 5,
+    },
+    {
+      id: 5,
+      quote:
+        "The support I received has given me the confidence to face challenges I never thought possible. I'm forever thankful.",
+      author: "James Brown",
+      role: "Support Group Member",
+      rating: 5,
+    },
+    {
+      id: 6,
+      quote:
+        "Joining this program was a life-changing decision. I've learned so much and feel empowered every day.",
+      author: "Olivia Harris",
+      role: "Client, Advocate",
+      rating: 5,
+    },
+    {
+      id: 7,
+      quote:
+        "Their compassionate staff helped me in ways I can't fully express. I now see my future with optimism and hope.",
+      author: "John Robinson",
+      role: "Program Participant",
+      rating: 5,
+    },
+    {
+      id: 8,
+      quote:
+        "The experience here has been incredible. The community is supportive, and the individualized care is beyond compare.",
+      author: "Sophia Clark",
+      role: "Patient",
+      rating: 5,
+    },
+    {
+      id: 9,
+      quote:
+        "The passion and dedication of the team here is unmatched. I’ve never felt more supported in my recovery journey.",
+      author: "Daniel Lewis",
+      role: "Program Attendee",
+      rating: 5,
+    },
+    {
+      id: 10,
+      quote:
+        "I've made more progress in my mental health with the help of this program than I thought possible. I'm truly grateful.",
+      author: "Charlotte Walker",
+      role: "Current Client",
       rating: 5,
     },
   ];

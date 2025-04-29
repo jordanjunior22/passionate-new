@@ -20,7 +20,7 @@ export default function ResourcesSection() {
   const resources = [
     "Workshops on coping strategies and self-care techniques.",
     "Access to online support groups and forums.",
-    "Educational materials on various mental health conditions.",
+    "Educational materials on various developmental and intellectual disabilities.",
   ];
 
   return (
@@ -40,10 +40,7 @@ export default function ResourcesSection() {
             Explore Our Community Support Resources Today
           </h2>
           <p className="text-neutral-dark mb-8 max-w-xl">
-            Our Community Support Program offers a wealth of mental health
-            education and wellness resources. Designed to foster resilience and
-            personal growth, these tools empower individuals on their journey to
-            recovery.
+          Our Community Support Program offers a wealth of educational and wellness resources tailored for individuals with developmental and intellectual disabilities. Designed to foster resilience and personal growth, these tools empower individuals on their journey to greater independence.
           </p>
 
           <ul className="mb-8 space-y-4">
@@ -64,9 +61,9 @@ export default function ResourcesSection() {
           </ul>
 
           <div className="flex flex-wrap gap-4">
-            <Button href="/about">Learn More</Button>
-            <Button variant="outline" href="#contactform">
-              Sign Up
+            <Button href="/contact">Get Started</Button>
+            <Button variant="outline" href="/blog">
+              Our Blog
               <i className="bx bx-right-arrow-alt ml-1"></i>
             </Button>
           </div>

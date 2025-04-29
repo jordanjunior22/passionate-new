@@ -63,7 +63,7 @@ const SupportOptionsSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <SupportOption
           title="Join Us in Making a Difference for Disability Health"
-          description="Explore opportunities to volunteer and help those on their mental health journey."
+          description="Explore opportunities to volunteer and support individuals on their journey toward independence and personal growth."
           icon="bx-cube"
           linkText="Volunteer"
           linkHref="/careers"

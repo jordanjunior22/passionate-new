@@ -32,10 +32,9 @@ const ProgramDetailsSection = () => {
             Understanding Our Residential Support Program
           </h2>
           <p className="text-neutral-dark text-lg">
-            Our Residential Support Program is designed to provide a structured
-            environment where individuals can thrive. We focus on personalized
-            care, ensuring each resident receives the support they need for
-            recovery.
+          Our Companion Care Program is designed to provide a structured, supportive environment where individuals with developmental and intellectual disabilities can thrive. We focus on personalized care, ensuring each person receives the support they need to build independence, confidence, and a fulfilling life.
+
+
           </p>
         </motion.div>
 
@@ -101,11 +100,11 @@ const ProgramDetailsSection = () => {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Button variant="primary" href="/getinvolved">
-            Get Involved
+          <Button variant="primary" href="/contact">
+            Get Started
           </Button>
-          <Button variant="secondary" href="#contactform">
-            Sign Up <i className="bx bx-right-arrow-alt ml-1"></i>
+          <Button variant="secondary" href="/careers">
+            Work With Us <i className="bx bx-right-arrow-alt ml-1"></i>
           </Button>
         </div>
       </div>

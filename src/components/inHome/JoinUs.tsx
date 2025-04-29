@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function JoinSection() {
   return (
-    <section id="sign-up" className="w-full py-16 md:py-24 bg-neutral-lightest">
+    <section id="sign-up" className="w-full py-16 md:py-24 bg-white">
       <div className="container responsive-px mx-auto max-w-7xl">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <motion.div
@@ -17,7 +17,7 @@ export default function JoinSection() {
             className="w-full md:w-1/2"
           >
             <h2 className="font-heading mb-6">
-              Join Our Community Support Program
+              Join Our In-Home Care Support Program
             </h2>
           </motion.div>
 
@@ -29,10 +29,9 @@ export default function JoinSection() {
             className="w-full md:w-1/2"
           >
             <p className="text-neutral-dark mb-8">
-              Take the first step towards recovery by enrolling in our Community
-              Support Program. Whether for yourself or a loved one, our
-              dedicated team is here to provide the guidance and support needed
-              for a brighter future.
+              Take the first step toward compassionate in-home support for yourself or a loved one. 
+              Our dedicated caregivers are ready to help you maintain independence, dignity, and comfort — 
+              all from the familiar surroundings of home.
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">

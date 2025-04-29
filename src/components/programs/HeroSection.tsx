@@ -87,6 +87,65 @@ const HeroSection: React.FC = () => {
               </Button>
             </div>
           </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="bg-neutral-lightest rounded-large overflow-hidden shadow-medium"
+          >
+            <div className="p-6">
+              <div className="mb-6 h-64 bg-neutral-lighter rounded-medium flex items-center justify-center">
+                <img
+                  src="/images/inhome.jpg"
+                  alt="In-Home Support Program"
+                  className="object-cover h-full w-full rounded-medium"
+                />
+              </div>
+              <h5 className="text-neutral-darker mb-3">
+                In-Home Support Program: Personalized Support for a Better Quality of Life
+              </h5>
+              <p className="text-neutral-dark mb-6">
+                Personalized support to enhance quality of life in their chosen environment.
+              </p>
+              <Button
+                variant="primary"
+                href="/in-home-support-program"
+                icon="bx-right-arrow-alt"
+              >
+                Learn More
+              </Button>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="bg-neutral-lightest rounded-large overflow-hidden shadow-medium"
+          >
+            <div className="p-6">
+              <div className="mb-6 h-64 bg-neutral-lighter rounded-medium flex items-center justify-center">
+                <img
+                  src="/images/companion.jpg" // Assuming you'll have a companion care image
+                  alt="Companion Care Program"
+                  className="object-cover h-full w-full rounded-medium"
+                />
+              </div>
+              <h5 className="text-neutral-darker mb-3">
+                Companion Care Program: Fostering Emotional Well-being and Connections
+              </h5>
+              <p className="text-neutral-dark mb-6">
+                Warm and supportive relationships and engaging activities that nurture emotional well-being and social connections.
+              </p>
+              <Button
+                variant="primary"
+                href="/companion-care-program"
+                icon="bx-right-arrow-alt"
+              >
+                Learn More
+              </Button>
+            </div>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
