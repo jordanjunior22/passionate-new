@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       merge_fields: data.merge_fields,
     };
 
-    const listId = "YOUR_MAILCHIMP_LIST_ID"; // Replace with your list ID
+    const listId = "89132697c4"; // Replace with your list ID
     const DC = process.env.MAILCHIMP_SERVER_PREFIX;
     const url = `https://${DC}.api.mailchimp.com/3.0/lists/${listId}/members`;
 

@@ -56,7 +56,7 @@ export function ContactForm() {
       };
 
       // Send data to API route that handles Mailchimp integration
-      const response = await fetch("@/api/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

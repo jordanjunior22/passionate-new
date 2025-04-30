@@ -67,7 +67,7 @@ export function Header() {
       <div className="container mx-auto px-4 max-w-8xl flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.svg"
+            src="/images/Logo.svg"
             alt="Passionate Center & Homes"
             width={160}
             height={40}
