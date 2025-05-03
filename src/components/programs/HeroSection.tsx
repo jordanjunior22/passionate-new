@@ -55,38 +55,6 @@ const HeroSection: React.FC = () => {
               </Button>
             </div>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="bg-neutral-lightest rounded-large overflow-hidden shadow-medium"
-          >
-            <div className="p-6">
-              <div className="mb-6 h-64 bg-neutral-lighter rounded-medium flex items-center justify-center">
-                <img
-                  src="/images/img2.png"
-                  alt="Community Support Program"
-                  className="object-cover h-full w-full rounded-medium"
-                />
-              </div>
-              <h5 className="text-neutral-darker mb-3">
-                Community Support Program: Empowering Individuals Through
-                Connection and Resources
-              </h5>
-              <p className="text-neutral-dark mb-6">
-                The Community Support Program fosters independence through
-                engagement and tailored assistance.
-              </p>
-              <Button
-                variant="primary"
-                href="/community"
-                icon="bx-right-arrow-alt"
-              >
-                Learn More
-              </Button>
-            </div>
-          </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -116,6 +84,7 @@ const HeroSection: React.FC = () => {
               </Button>
             </div>
           </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -150,8 +119,40 @@ const HeroSection: React.FC = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             className="bg-neutral-lightest rounded-large overflow-hidden shadow-medium"
+          >
+            <div className="p-6">
+              <div className="mb-6 h-64 bg-neutral-lighter rounded-medium flex items-center justify-center">
+                <img
+                  src="/images/img2.png"
+                  alt="Community Support Program"
+                  className="object-cover h-full w-full rounded-medium"
+                />
+              </div>
+              <h5 className="text-neutral-darker mb-3">
+                Community Support Program: Empowering Individuals Through
+                Connection and Resources
+              </h5>
+              <p className="text-neutral-dark mb-6">
+                The Community Support Program fosters independence through
+                engagement and tailored assistance.
+              </p>
+              <Button
+                variant="primary"
+                href="/community"
+                icon="bx-right-arrow-alt"
+              >
+                Learn More
+              </Button>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="bg-gray-300 rounded-large overflow-hidden shadow-medium"
           >
             <div className="p-6">
               <div className="mb-6 h-64 bg-neutral-lighter rounded-medium flex items-center justify-center">
@@ -162,7 +163,7 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h5 className="text-neutral-darker mb-3">
-                Tailored Approaches for Diverse Mental Health Challenges and
+                Tailored Approaches for Diverse Developmental/Intellectual Disability Challenges and
                 Personal Growth
               </h5>
               <p className="text-neutral-dark mb-6">

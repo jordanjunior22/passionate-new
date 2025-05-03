@@ -29,10 +29,10 @@ const ProgramsPage: React.FC = () => {
         style={{ scaleX, transformOrigin: "0%" }}
       />
       <HeroSection />
-      <CommunitySupport />
       <ResidentialSupport />
       <InHomeSupport/>
       <CompanionCare/>
+      <CommunitySupport />
       <ProgramsApproach />
       <ProgramsCTA />
       <Footer />

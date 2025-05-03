@@ -14,7 +14,17 @@ export default function LocationsPage() {
       id: 1,
       name: "Alexandria",
       address: "5721 Eliot Ct, Unit 173, Alexandria, Virginia 22311",
-      images: ["/images/img5.jpg", "/images/img6.jpg", "/images/img7.jpg"],
+      images: [
+        "/images/first-location/1.jpg", 
+        "/images/first-location/2.jpg", 
+        "/images/first-location/3.jpg",
+        "/images/first-location/4.jpg",
+        "/images/first-location/5.jpg",
+        "/images/first-location/6.jpg",
+        "/images/first-location/7.jpg",
+        "/images/first-location/8.jpg",
+        "/images/first-location/9.jpg",
+        ],
       description:
         "Our flagship location in the heart of historic Alexandria. This peaceful residence offers a serene environment for community intergration, support and growth.",
     },
