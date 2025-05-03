@@ -77,7 +77,8 @@ const jobs = [
   - Medical Specialty: Psychiatry
   - Ability to commute to Alexandria, VA 22311 (Required)
   - Ability to relocate to Alexandria, Virginia before starting work (Required)
-  - Willingness to travel: 25% (Required)`
+  - Willingness to travel: 25% (Required)
+  - Work Location: In person`
   },
   
   {
@@ -147,7 +148,8 @@ const jobs = [
   - Hybrid work, must be located within Virginia
   - Ability to commute to Alexandria, VA 22311 (Required)
   - Ability to relocate to Alexandria, Virginia before starting work (Required)
-  - Willingness to travel: 25% (Required)`
+  - Willingness to travel: 25% (Required)
+  - Work Location: In person`
   },
   {
     id: 3,
@@ -585,7 +587,7 @@ const jobs = [
   - Ability to Commute: Alexandria, VA 22311 (Required)
   - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
   - Willingness to travel: 25% (Required)
-  - Work Location: In-person`
+  - Work Location: In person`
   }
 ];
 
