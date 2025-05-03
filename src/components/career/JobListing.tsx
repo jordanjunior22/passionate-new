@@ -205,15 +205,6 @@ const jobs = [
   
   **Expected hours:** No less than 25 per week
   
-  **Benefits:**
-  - Bereavement leave
-  - Employee assistance program
-  - Flexible schedule
-  - Paid time off
-  
-  **Medical Specialty:**
-  - Psychiatry
-  
   **Schedule:**
   - 8 hour shift
   - Day shift
@@ -224,14 +215,19 @@ const jobs = [
   - Morning shift
   - On call
   - Rotating weekends
+
+  **Benefits:**
+  - Bereavement leave
+  - Employee assistance program
+  - Flexible schedule
+  - Paid time off
   
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** In person`
+  **Others:**
+  - Medical Specialty: Psychiatry
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: In person`
   },
   {
     id: 4,
@@ -291,16 +287,7 @@ const jobs = [
   **Pay:** $18.00 - $22.00 per hour
   
   **Expected hours:** No less than 25 per week
-  
-  **Benefits:**
-  - Bereavement leave
-  - Employee assistance program
-  - Flexible schedule
-  - Paid time off
-  
-  **Medical Specialty:**
-  - Psychiatry
-  
+
   **Schedule:**
   - 8 hour shift
   - Day shift
@@ -315,14 +302,19 @@ const jobs = [
   - Rotating weekends
   - Weekends as needed
   - Weekends only
+
+  **Benefits:**
+  - Bereavement leave
+  - Employee assistance program
+  - Flexible schedule
+  - Paid time off
   
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** In person`
+  **Others:**
+  - Medical Specialty: Psychiatry
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: In person`
   },
   {
     id: 5,
@@ -391,15 +383,6 @@ const jobs = [
   
   **Expected hours:** Monday - Friday (8:00 a.m. - 4:00 p.m.) Must be available for emergency on-calls
   
-  **Benefits:**
-  - Bereavement leave
-  - Employee assistance program
-  - Flexible schedule
-  - Paid time off
-  
-  **Medical Specialty:**
-  - Home Health
-  
   **Schedule:**
   - 8 hour shift
   - Day shift
@@ -409,13 +392,18 @@ const jobs = [
   - Morning shift
   - On call
   
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** Hybrid, must be located within Virginia`
+  **Benefits:**
+  - Bereavement leave
+  - Employee assistance program
+  - Flexible schedule
+  - Paid time off
+
+  **Others:**
+  - Medical Specialty: Home Health
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: In person`
   },
   {
     id: 6,
@@ -456,24 +444,21 @@ const jobs = [
   
   **Expected hours:** Monday - Friday (8:00 a.m. - 4:00 p.m.) Must be available for emergency on-calls
   
+  **Schedule:**
+  - Monday to Friday
+
   **Benefits:**
   - Bereavement leave
   - Employee assistance program
   - Flexible schedule
   - Paid time off
   
-  **Medical Specialty:** Psychiatry
-  
-  **Schedule:**
-  - Monday to Friday
-  
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** Hybrid, must be located within Virginia`
+  **Others:**
+  - Medical Specialty: Psychiatry
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: Hybrid, must be located within Virginia`
   },
   {
     id: 7,
@@ -513,25 +498,22 @@ const jobs = [
   **Pay:** $45,000.00 - $55,000.00 per year
   
   **Expected hours:** Monday - Friday (8:00 a.m. - 4:00 p.m.) Must be available for emergency on-calls
-  
+    
+  **Schedule:**
+  - Monday to Friday
+
   **Benefits:**
   - Bereavement leave
   - Employee assistance program
   - Flexible schedule
   - Paid time off
-  
-  **Medical Specialty:** Psychiatry
-  
-  **Schedule:**
-  - Monday to Friday
-  
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** Hybrid, must be located within Virginia`
+
+  **Others:**
+  - Medical Specialty: Psychiatry
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: Hybrid, must be located within Virginia`
   },
   {
     id: 8,
@@ -588,25 +570,22 @@ const jobs = [
   **Pay:** $45,000.00 - $55,000.00 per year
   
   **Expected hours:** Monday - Friday (8:00 a.m. - 4:00 p.m.) Must be available for emergency on-calls
-  
+    
+  **Schedule:**
+  - 8 Hours Shift, Monday to Friday
+
   **Benefits:**
   - Bereavement leave
   - Employee assistance program
   - Flexible schedule
   - Paid time off
   
-  **Medical Specialty:** Psychiatry
-  
-  **Schedule:**
-  - 8 Hours Shift, Monday to Friday
-  
-  **Ability to Commute:** Alexandria, VA 22311 (Required)
-  
-  **Ability to Relocate:** Alexandria, Virginia: Relocate before starting work (Required)
-  
-  **Willingness to travel:** 25% (Required)
-  
-  **Work Location:** In Person`
+  **Others:**
+  - Medical Specialty: Psychiatry
+  - Ability to Commute: Alexandria, VA 22311 (Required)
+  - Ability to Relocate: Alexandria, Virginia: Relocate before starting work (Required)
+  - Willingness to travel: 25% (Required)
+  - Work Location: In-person`
   }
 ];
 

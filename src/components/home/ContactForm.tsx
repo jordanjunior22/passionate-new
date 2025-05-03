@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
+
 // Validation schema with Zod
 const contactSchema = z.object({
   name: z.string().min(1, "Please enter your name"),

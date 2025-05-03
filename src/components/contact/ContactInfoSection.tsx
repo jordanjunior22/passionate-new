@@ -65,7 +65,7 @@ export function ContactInfoSection() {
                   href="tel:+15712655198"
                   className="text-dodger-blue hover:text-dodger-blue-dark transition-colors underline"
                 >
-                  +1 (571) 265-5198
+                  +1 (703) 200-0983
                 </a>
               </div>
             </div>
