@@ -24,7 +24,7 @@ export function Footer() {
 
   const GoPay = () => {
     // Redirect the user to the specified link
-    window.open("https://buy.stripe.com/5kAdTa3925zifle7ss", "_blank");
+    window.open("https://mezahfoundation.org", "_blank");
   };
 
   return (
