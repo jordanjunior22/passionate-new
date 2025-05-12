@@ -16,18 +16,18 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-neutral-darker font-heading mb-6">
-              Empowering Mental Health Recovery Through Support
+              Residential Group Home Support Program: A Safe Space for Support and Growth
             </h1>
             <p className="text-neutral-dark mb-8 text-lg">
-              Our Residential Support Program offers a safe haven for adults
-              facing developmental/intellectual disability challenges. We specialize in conditions such
-              as schizophrenia, bipolar disorder, and anxiety, providing
-              tailored support for each individual's journey.
+              Our Residential Group Home Program offers a safe haven and support for adults
+              with developmental/intellectual disability challenges.
+              We specialize in providing tailored support for each individual's
+              journey in a home-like environment.
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">
               <Button variant="primary" href="/contact">
-                Get Started
+                Get In Touch
               </Button>
               <Button variant="outline" href="/programs">
                 Other Programs <i className="bx bx-right-arrow-alt ml-1"></i>
@@ -56,19 +56,51 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
-              Comprehensive Care
+              Safe and Comfortable Living
             </h3>
             <p className="text-neutral-dark">
-              We focus on stability and personal growth for our residents.
+              Our group homes are designed to provide a safe and comfortable living space for residents.
             </p>
           </div>
 
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
+              Inclusive Home Activities
+            </h3>
+            <p className="text-neutral-dark">
+              Participate in various home activities, including meal preparation, household chores, and recreational pursuits.            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
               Individualized Support
             </h3>
             <p className="text-neutral-dark">
-              Each program is customized to meet unique mental health needs.
+              We develop customized support plans tailored to each resident’s unique needs and specific goals.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Community Engagement
+            </h3>
+            <p className="text-neutral-dark">
+              Residents have the opportunity to engage in social activities and outings with fellow residents, fostering a sense of belonging and connection.
+            </p>
+          </div>
+
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Healthy Meals
+            </h3>
+            <p className="text-neutral-dark">
+              Enjoy well-balanced, nutritious meals in a communal dining setting.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Experienced Staff
+            </h3>
+            <p className="text-neutral-dark">
+              Our dedicated staff members are experienced in providing care and support, ensuring the well-being of our residents.
             </p>
           </div>
         </div>

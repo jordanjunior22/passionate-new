@@ -111,7 +111,7 @@ export function Header() {
                   href="/residential"
                   className="block px-4 py-3 text-neutral-darkest hover:text-fruit-salad hover:bg-neutral-lightest transition-colors duration-200 border-l-2 border-transparent hover:border-fruit-salad"
                 >
-                  Residential Support Program
+                  Residential Group Home Support Program
                 </Link>
                 <Link
                   href="/in-home-support-program"
@@ -225,7 +225,8 @@ export function Header() {
                       setIsMobileMenuOpen(false);
                     }}
                   >
-                    Residential Support Program
+                    Residential Group Home Support Program
+
                   </Link>
                   <Link
                     href="/community"
@@ -235,7 +236,7 @@ export function Header() {
                       setIsMobileMenuOpen(false);
                     }}
                   >
-                    Community Support Program
+                    In-Home Support Program
                   </Link>
                   <Link
                     href="/programs"
