@@ -9,6 +9,7 @@ import EmpoweringSection from "@/components/inHome/EmpoweringSection";
 import JoinSection from "@/components/inHome/JoinUs";
 import { Testimonial } from "@/components/home/Testimonial";
 import { CTA } from "@/components/ui/CTA";
+import OverviewSection from "@/components/inHome/OverviewSection";
 
 const ProgramsPage: React.FC = () => {
   // Progress bar at the top of the page
@@ -27,9 +28,10 @@ const ProgramsPage: React.FC = () => {
         style={{ scaleX, transformOrigin: "0%" }}
       />
         <HeroSection />
+        <OverviewSection/>
         <EmpoweringSection />
-        <JoinSection />
         <Testimonial />
+        <JoinSection />
         <CTA />
       <Footer />
     </main>

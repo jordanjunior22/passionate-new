@@ -16,17 +16,17 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-neutral-darker font-heading mb-6">
-              Personalized Care and Support in the Comfort of Your Home
+              In-Home Support Program: Personalized Support and Care for a Better Quality of Life
             </h1>
             <p className="text-neutral-dark mb-8 text-lg">
-              Our In-Home Support Program delivers compassionate assistance to individuals 
-              who need help with daily living activities, personal care, and building independence — 
-              all while remaining in the familiarity of their own homes.
+              Our In-Home Support Program delivers compassionate assistance to individuals who need
+              help with daily living activities, personal care, and building independence — all while remaining in the
+              familiarity of your own homes or chosen living settings.
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">
               <Button variant="primary" href="/contact">
-                Get Started
+                Get In Touch
               </Button>
               <Button variant="outline" href="/programs">
                 Other Programs <i className="bx bx-right-arrow-alt ml-1"></i>
@@ -55,19 +55,59 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
-              Assistance with Daily Living
+              Personal Care and Daily Living
             </h3>
             <p className="text-neutral-dark">
-              From meal preparation to medication reminders, we offer tailored support for everyday needs.
+              Assistance in performing personal care tasks,
+              training and support in activities of daily living, and assistance with housekeeping
+              tasks specific to individual needs.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Community Integration
+            </h3>
+            <p className="text-neutral-dark">
+              Support to improve community integration,
+              access resources, and develop skills for independent living.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Health and Wellness
+            </h3>
+            <p className="text-neutral-dark">
+              We provide care and support in the monitoring of health, nutrition,
+              and physical condition,
+              as well as awareness of health and safety precautions.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Behavioral Support
+            </h3>
+            <p className="text-neutral-dark">
+              Assistance with developing skills to reduce or eliminate behavioral episodes,
+              implementation of Behavioral Support Plans (BSPs), and positive strategies.
+            </p>
+          </div>
+          <div className="bg-neutral-lightest p-6 rounded-medium">
+            <h3 className="text-neutral-darker font-heading mb-3">
+              Skill Development and Community Access
+            </h3>
+            <p className="text-neutral-dark">
+              Assistance with acquiring
+              new skills or maintaining existing ones,
+              and coordinating transportation to community events.
             </p>
           </div>
 
           <div className="bg-neutral-lightest p-6 rounded-medium">
             <h3 className="text-neutral-darker font-heading mb-3">
-              Promoting Independence
+              Financial Management
             </h3>
             <p className="text-neutral-dark">
-              Our caregivers encourage skills development, self-care, and community involvement at home.
+              Enhance management of financial and personal affairs.
             </p>
           </div>
         </div>

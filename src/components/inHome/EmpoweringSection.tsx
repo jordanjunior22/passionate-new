@@ -8,7 +8,7 @@ export default function EmpoweringSection() {
   return (
     <section className="w-full py-16 md:py-24 bg-neutral-lightest">
       <div className="container responsive-px mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8">
-      <motion.div
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -33,32 +33,35 @@ export default function EmpoweringSection() {
           className="w-full md:w-1/2 mb-8 md:mb-0"
         >
           <div className="mb-4">
-            <span className="text-dodger-blue font-medium">In-Home Care</span>
+            <span className="text-fruit-salad font-medium mb-2">In-Home Care</span>
           </div>
           <h2 className="font-heading mb-6">
-            Supporting Independence with Compassionate In-Home Care
+            Supporting Independence with Compassionate In-Home Support and Care
           </h2>
           <p className="text-neutral-dark mb-8 max-w-xl">
-            Our In-Home Care Support Program is dedicated to helping individuals maintain their independence 
-            and quality of life. Through personalized daily assistance and encouragement, 
-            we ensure clients receive the care they need without leaving the comfort of their own homes.
+            Our In-Home Support Program is dedicated to helping individuals maintain
+            their independence and quality of life. Through personalized daily assistance and encouragement,
+            we ensure clients receive the care they need within and without the comfort of their own homes.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div>
-              <h3 className="text-lg font-heading font-semibold mb-3">
+              <h3 className="text-neutral-darker font-heading mb-3">
                 Daily Living Assistance
               </h3>
               <p className="text-neutral-dark">
-                Help with everyday tasks like meal preparation, hygiene, medication reminders, and more.
+                Help with everyday tasks like personal care, meal preparation, hygiene,
+                medication reminders, Skill development,
+                community access and more from comfort the of their chosen environment.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-heading font-semibold mb-3">
+              <h3 className="text-neutral-darker font-heading mb-3">
                 Personalized Support Plans
               </h3>
               <p className="text-neutral-dark">
-                Services tailored to match each individual's unique needs, promoting comfort and dignity.
+                Services tailored to match each individual's support plan and unique needs,
+                promoting comfort and dignity, to enhance quality of life.
               </p>
             </div>
           </div>

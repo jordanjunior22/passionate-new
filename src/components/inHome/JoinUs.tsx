@@ -17,7 +17,7 @@ export default function JoinSection() {
             className="w-full md:w-1/2"
           >
             <h2 className="font-heading mb-6">
-              Join Our In-Home Care Support Program
+              Join Our In-Home Support Program
             </h2>
           </motion.div>
 
@@ -39,7 +39,7 @@ export default function JoinSection() {
                 className="bg-gradient-to-r from-fruit-salad to-dodger-blue text-neutral-white"
                 href="/contact"
               >
-                Get Started
+                Get In Touch
               </Button>
               <Button variant="tertiary" href="/programs">
                 Other Programs

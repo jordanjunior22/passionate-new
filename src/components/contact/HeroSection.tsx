@@ -32,9 +32,14 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-neutral-dark text-tag-medium md:text-tag-large">
-              Your journey towards developmental/intellectual disability wellness starts here. Whether you're
-              looking to schedule a consultation, volunteer, or join an event,
-              we're here to support you.
+            Your journey towards developmental/intellectual disability support and wellness starts here. 
+            Whether you're looking to schedule a consultation, 
+            or join an event, we're here to support you.
+
+            </p>
+            <p className="text-neutral-dark text-tag-medium md:text-tag-large mt-3">
+            To arrange for services, call: (703) 200-0983 or WhatsApp (703) 200-0983 or fill and submit the 
+            client application request form.
             </p>
             <div className="flex flex-col md:flex-row md:items-center w-full gap-4">
               <Button variant="primary" href="#contactform">

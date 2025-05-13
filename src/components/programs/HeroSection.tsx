@@ -70,11 +70,10 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h5 className="text-neutral-darker mb-3">
-                In-Home Support Program: Personalized Support for a Better Quality of Life
+              In-Home Support Program: Support and Care for a Better Quality of Life
               </h5>
               <p className="text-neutral-dark mb-6">
-                Personalized support to enhance quality of life in their chosen environment.
-              </p>
+              Our In-Home Support Program offers personalized support and care in the comfort of your chosen environment.              </p>
               <Button
                 variant="primary"
                 href="/in-home-support-program"
