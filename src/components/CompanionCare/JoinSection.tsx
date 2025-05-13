@@ -37,7 +37,7 @@ export default function JoinSection() {
                 className="bg-gradient-to-r from-fruit-salad to-dodger-blue text-neutral-white"
                 href="/contact"
               >
-                Get Started
+                Get In Touch
               </Button>
               <Button variant="tertiary" href="/programs">
                 Other Programs

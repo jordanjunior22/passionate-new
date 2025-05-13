@@ -41,7 +41,7 @@ const HeroSection = () => {
 
                         <div className="flex flex-col md:flex-row gap-4">
                             <Button variant="primary" href="/contact">
-                                Get Started
+                                Get In Touch
                             </Button>
                             <Button variant="outline" href="/programs">
                                 Other Programs <i className="bx bx-right-arrow-alt ml-1"></i>

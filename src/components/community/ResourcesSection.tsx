@@ -61,7 +61,7 @@ export default function ResourcesSection() {
           </ul>
 
           <div className="flex flex-wrap gap-4">
-            <Button href="/contact">Get Started</Button>
+            <Button href="/contact">Get In Touch</Button>
             <Button variant="outline" href="/blog">
               Our Blog
               <i className="bx bx-right-arrow-alt ml-1"></i>

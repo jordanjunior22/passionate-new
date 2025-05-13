@@ -49,7 +49,7 @@ export default function ProgramStepsSection() {
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
               <Button href="contact">
-                Get Started
+                Get In Touch
                 <i className="bx bx-right-arrow-alt ml-1"></i>
               </Button>
             </div>

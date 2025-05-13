@@ -26,7 +26,7 @@ export default function HeroSection() {
             through tailored resources and a supportive network.
           </p>
           <div className="flex flex-col md:flex-row gap-4">
-            <Button href="/contact">Get Started</Button>
+            <Button href="/contact">Get In Touch</Button>
             <Button variant="outline" href="/programs">
               Other Programs
               <i className="bx bx-right-arrow-alt ml-1"></i>
