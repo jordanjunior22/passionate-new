@@ -29,10 +29,10 @@ const ProgramDetailsSection = () => {
         >
           <p className="text-fruit-salad font-medium mb-2">Support</p>
           <h2 className="text-neutral-darker font-heading mb-6">
-            Understanding Our Residential Support Program
+            Understanding Our Residential Group Home Support Program
           </h2>
           <p className="text-neutral-dark text-lg">
-          Our Companion Care Program is designed to provide a structured, supportive environment where individuals with developmental and intellectual disabilities can thrive. We focus on personalized care, ensuring each person receives the support they need to build independence, confidence, and a fulfilling life.
+          Our Residential Group Home Support Program Care Program is designed to provide a structured, supportive environment where individuals with developmental and intellectual disabilities can thrive. We focus on personalized care, ensuring each person receives the support they need to build independence, confidence, and a fulfilling life.
 
 
           </p>
@@ -71,10 +71,10 @@ const ProgramDetailsSection = () => {
               <i className="bx bxs-cube text-3xl text-dodger-blue"></i>
             </div>
             <h3 className="text-neutral-darker font-heading mb-3">
-              Comprehensive Support Services Available
+              Comprehensive Support Services
             </h3>
             <p className="text-neutral-dark mb-4">
-              Our team offers 24/7 support and guidance.
+              Our team offers 24/7 staff availability, support and guidance.
             </p>
           </motion.div>
 
@@ -90,7 +90,7 @@ const ProgramDetailsSection = () => {
               <i className="bx bxs-cube text-3xl text-seance"></i>
             </div>
             <h3 className="text-neutral-darker font-heading mb-3">
-              A Safe Space for Healing
+              A Safe Space for Growth
             </h3>
             <p className="text-neutral-dark mb-4">
               Residents are encouraged to express themselves and build
@@ -101,7 +101,7 @@ const ProgramDetailsSection = () => {
 
         <div className="flex flex-wrap justify-center gap-4">
           <Button variant="primary" href="/contact">
-            Get Started
+            Get In Touch
           </Button>
           <Button variant="secondary" href="/careers">
             Work With Us <i className="bx bx-right-arrow-alt ml-1"></i>

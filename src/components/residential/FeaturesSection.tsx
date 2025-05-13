@@ -36,12 +36,12 @@ const FeaturesSection = () => {
           >
             <p className="text-fruit-salad font-medium mb-2">Empowerment</p>
             <h2 className="text-neutral-darker font-heading mb-6">
-              Unlock Your Potential with Our Support
+              Explore Your Potential in Our Residential Group Home Support Program
             </h2>
             <p className="text-neutral-dark mb-8">
-              Our Residential Support Program fosters a nurturing environment
+              Our Residential Group Home Support Program fosters a nurturing environment
               where individuals can thrive. Experience stability, personal
-              growth, and the journey towards independence.
+              growth, and the journey towards independence. Choosing Our Residential Group Home Services, provides serveral benefits.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -60,14 +60,14 @@ const FeaturesSection = () => {
                 </h4>
                 <p className="text-neutral-dark">
                   Develop essential life skills and regain confidence in a
-                  supportive community.
+                  supportive environment, filled with in-home activities and community engagements.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <Button variant="primary" href="/contact">
-                Get Started
+                Get In Touch
               </Button>
               <Button variant="secondary" href="/programs">
                 Other Programs <i className="bx bx-right-arrow-alt ml-1"></i>
