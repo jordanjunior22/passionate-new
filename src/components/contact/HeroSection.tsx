@@ -42,7 +42,7 @@ export function HeroSection() {
             client application request form.
             </p>
             <div className="flex flex-col md:flex-row md:items-center w-full gap-4">
-              <Button variant="primary" href="#contactform">
+              <Button variant="primary" href="/client-application">
                 Submit Client Application Request
               </Button>
               <Button variant="secondary" icon="bx-heart" onClick={GoPay}>
