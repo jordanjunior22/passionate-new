@@ -119,7 +119,7 @@ export function Header() {
                 >
                   In-Home Support Program
                 </Link>
-                <Link
+                {/* <Link
                   href="/companion-care-program"
                   className="block px-4 py-3 text-neutral-darkest hover:text-fruit-salad hover:bg-neutral-lightest transition-colors duration-200 border-l-2 border-transparent hover:border-fruit-salad"
                 >
@@ -130,7 +130,7 @@ export function Header() {
                   className="block px-4 py-3 text-neutral-darkest hover:text-fruit-salad hover:bg-neutral-lightest transition-colors duration-200 border-l-2 border-transparent hover:border-fruit-salad"
                 >
                   Community Support Program
-                </Link>
+                </Link> */}
 
                 <Link
                   href="/programs"

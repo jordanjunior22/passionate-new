@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
           </motion.div>
 
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -145,7 +145,7 @@ const HeroSection: React.FC = () => {
                 Learn More
               </Button>
             </div>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

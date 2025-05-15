@@ -31,8 +31,8 @@ const ProgramsPage: React.FC = () => {
       <HeroSection />
       <ResidentialSupport />
       <InHomeSupport/>
-      <CompanionCare/>
-      <CommunitySupport />
+      {/* <CompanionCare/>
+      <CommunitySupport /> */}
       <ProgramsApproach />
       <ProgramsCTA />
       <Footer />
