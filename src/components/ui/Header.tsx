@@ -44,7 +44,7 @@ export function Header() {
   }, []);
 
   const GoPay = () => {
-    window.open("https://mezahfoundation.org", "_blank");
+    window.open("https://buy.stripe.com/5kAdTa3925zifle7ss", "_blank");
   };
 
   // Toggle functions with elegant handling

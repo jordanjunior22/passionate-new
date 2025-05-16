@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export function CTA() {
   const GoPay = () => {
     // Redirect the user to the specified link
-    window.open("https://mezahfoundation.org", "_blank");
+    window.open("https://buy.stripe.com/5kAdTa3925zifle7ss", "_blank");
   };
   return (
     <section id="join-us" className="relative py-20 overflow-hidden">

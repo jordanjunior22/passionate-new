@@ -57,24 +57,24 @@ export function Programs() {
       description:
         "Experience the difference with Passionate Center & Homes communal environment.",
     },
-    {
-      icon: "bx-group",
-      title: "Community Support Programs",
-      description:
-        "Build meaningful relationships in a supportive environment that fosters growth, understanding, and mutual respect.",
-    },
+    // {
+    //   icon: "bx-group",
+    //   title: "Community Support Programs",
+    //   description:
+    //     "Build meaningful relationships in a supportive environment that fosters growth, understanding, and mutual respect.",
+    // },
     {
       icon: "bx-bed",
       title: "In-Home Support Program",
       description:
         "Personalized support to enhance quality of life in their chosen environment.",
     },
-    {
-      icon: "bx-heart",
-      title: "Companion Care Program",
-      description:
-        "Warm and supportive relationships and engaging activities that nurture emotional well-being and social connections.",
-    },
+    // {
+    //   icon: "bx-heart",
+    //   title: "Companion Care Program",
+    //   description:
+    //     "Warm and supportive relationships and engaging activities that nurture emotional well-being and social connections.",
+    // },
 
   ];
 
